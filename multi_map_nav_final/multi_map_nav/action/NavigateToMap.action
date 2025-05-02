@@ -1,0 +1,11 @@
+# Goal definition
+geometry_msgs/PoseStamped target_pose
+string target_map
+---
+# Result definition
+bool success
+string message
+---
+# Feedback definition
+string current_map
+string status
