@@ -58,11 +58,11 @@ To launch the multi-map navigation system, follow these steps:
 4. Run the action client to send navigation goals.
    In a separate terminal:
 
-  ```bash
+   ```bash
    cd ~/catkin_ws
-  source devel/setup.bash
-  rosrun multi_map_nav action.py
-```
+   source devel/setup.bash
+   rosrun multi_map_nav action.py
+   ```
 
 ✅ Make sure the multi_map_nav package and all dependencies are correctly sourced and built before running.
    
