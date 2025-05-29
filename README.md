@@ -72,9 +72,9 @@ To launch the multi-map navigation system, follow these steps:
 
 ### 🚗 Robot Navigating Across Maps
 
-<img src="![Screenshot from 2025-05-29 12-19-23](https://github.com/user-attachments/assets/5f01977f-9868-464d-9bc1-eeeb8c4b4455)" width="600"/>
-<img src="![Screenshot from 2025-05-29 12-19-18](https://github.com/user-attachments/assets/2ff73267-282a-4f98-b6be-6d2eadedfd3e)" width="600"/>
-<img src="![Screenshot from 2025-05-29 12-19-14](https://github.com/user-attachments/assets/2be2321c-82ee-4cb2-8dff-f3ea7b592765)" width="600"/>
+![Screenshot from 2025-05-29 12-19-23](https://github.com/user-attachments/assets/5f01977f-9868-464d-9bc1-eeeb8c4b4455)
+![Screenshot from 2025-05-29 12-19-18](https://github.com/user-attachments/assets/2ff73267-282a-4f98-b6be-6d2eadedfd3e)
+![Screenshot from 2025-05-29 12-19-14](https://github.com/user-attachments/assets/2be2321c-82ee-4cb2-8dff-f3ea7b592765)
 
 </div>
 
