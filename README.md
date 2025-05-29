@@ -33,7 +33,3 @@ git clone https://github.com/MoTawfik11/multi_map.git
 cd ~/catkin_ws
 catkin_make
 source devel/setup.bash
-
-
-
-
