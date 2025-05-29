@@ -33,3 +33,36 @@ git clone https://github.com/MoTawfik11/multi_map.git
 cd ~/catkin_ws
 catkin_make
 source devel/setup.bash
+```
+
+## How to Run
+
+To launch the multi-map navigation system, follow these steps:
+
+1. **Launch your mobile robot in Gazebo.**  
+   Ensure your robot is properly spawned and publishing necessary topics (e.g., `/odom`, `/tf`, `/scan`).
+
+2. **Create and save multiple maps.**  
+   Use SLAM tools (e.g., `gmapping` or `cartographer`) to create at least two maps. Save them in the `maps/` directory inside this repository.
+
+3. **Launch the multi-map navigation system.**  
+   In one terminal:
+
+   ```bash
+   cd ~/catkin_ws
+   catkin_make
+   source devel/setup.bash
+   roslaunch multi_map_nav multi_map_nav.launch
+   ```
+
+4. Run the action client to send navigation goals.
+   In a separate terminal:
+
+  ```bash
+   cd ~/catkin_ws
+  source devel/setup.bash
+  rosrun multi_map_nav action.py
+```
+
+✅ Make sure the multi_map_nav package and all dependencies are correctly sourced and built before running.
+   
